@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# repeats the content of the current working directory.
+
+for x in *
+do
+    echo "$x" | cut -d'-' -f2
+done
